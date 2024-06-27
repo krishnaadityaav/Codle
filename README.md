@@ -80,6 +80,3 @@ This is a Collaborative Code Editor web application that supports real-time coll
 - [Express](https://expressjs.com/)
 - [MongoDB](https://www.mongodb.com/)
 - [WebSocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket)
-```
-
-This `README.md` provides an overview of the project, installation instructions, a project structure outline, and a brief description of each part of the project. Feel free to customize it further based on your project's specifics and requirements.
