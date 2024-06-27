@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Code Editor</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Load Monaco Editor from CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.21.2/min/vs/loader.min.js"></script>
+</head>
+<body>
+    <header>
+        <img src="assets/logo.png" alt="Logo" class="logo">
+        <h1>Codle</h1>
+    </header>
+    <div id="auth">
+        <form id="login-form">
+            <h2>Login</h2>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button><br><br>
+            <button type="submit">New User? Sign Up</button>
+        </form>
+    </div>
+    <div id="editor" style="height: 90vh;"></div>
+    <script src="main.js"></script>
+</body>
+</html>
