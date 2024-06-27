@@ -1,4 +1,4 @@
-# Collaborative Code Editor
+# Codle
 
 This is a Collaborative Code Editor web application that supports real-time collaboration, syntax highlighting, and user authentication.
 
